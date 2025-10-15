@@ -823,7 +823,72 @@
     </div>
 </section>
 
-      <section>Зв'яжіться з нами</section>
+      <section class="contact-section">
+  <div class="cїcontainer">
+    <div class="contact-form">
+      <h2 class="contact-title-form">Залишились питання? Зв'яжіться з нами!</h2>
+      <p class="contact-text-form">Ми тут, щоб допомогти!</p>
+      <form class="contacts-form" action="#" method="post" novalidate>
+        <label class="contact-label-input" for="name">Ім’я</label>
+        <input
+          class="contact-form-input"
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="5"
+          maxlength="64"
+          placeholder="Іван"
+        />
+
+        <label class="contact-label-input" for="email">Електронна пошта</label>
+        <input
+          class="contact-form-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          placeholder="hello@ecotote.com"
+        />
+
+        <label class="contact-label-textarea" for="message">Повідомлення</label>
+        <textarea
+          class="contact-form-textarea"
+          id="message"
+          name="message"
+          maxlength="500"
+          rows="5"
+          placeholder="Введіть своє повідомлення..."
+        ></textarea>
+
+        <button class="btn-submit" type="submit">Надіслати</button>
+      </form>
+    </div>
+
+    <div class="workspace-preview">
+      <picture>
+        <source
+          srcset="/ecotote-project-08/assets/EcoTote-Form-desk-7VzB0rx8.jpg 1x, /ecotote-project-08/assets/EcoTote-Form-desk@2x-DFU095p5.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/ecotote-project-08/assets/EcoTote-Form-tab-cC38G_3c.jpg 1x, /ecotote-project-08/assets/EcoTote-Form-tab@2x-CU-XHvaf.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/ecotote-project-08/assets/EcoTote-Form-mob-Bj7zmU0q.jpg 1x, /ecotote-project-08/assets/EcoTote-Form-mob@2x-CGyrDwNt.jpg 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          src="/ecotote-project-08/assets/EcoTote-Form-desk-7VzB0rx8.jpg"
+          alt="EcoTote-Form"
+          width="288"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
 
     </main>
 
