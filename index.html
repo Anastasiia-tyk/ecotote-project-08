@@ -19,131 +19,53 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/ecotote-project-08/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ecotote-project-08/assets/index-DDWncZmV.css">
+    <link rel="stylesheet" crossorigin href="/ecotote-project-08/assets/index-Cva9qLnY.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container-header">
-    <a href="../index.html" class="header-logo-link">
-      <img
-        src="/ecotote-project-08/assets/logo-D0IkVfL7.svg"
-        alt="logo"
-        width="84"
-        height="36"
-        class="header-logo"
-      />
-    </a>
-    <nav class="header-nav">
-      <ul class="header-nav-list">
-        <li class="header-nav-item">
-          <a href="/src/partials/advantages.html" class="header-nav-link"
-            >Про&nbsp;нас</a
-          >
-        </li>
-        <li class="header-nav-item">
-          <a href="/src/partials/feature.html" class="header-nav-link"
-            >Переваги</a
-          >
-        </li>
-        <li class="header-nav-item">
-          <a href="/src/partials/product.html" class="header-nav-link"
-            >Асортимент</a
-          >
-        </li>
-        <li class="header-nav-item">
-          <a href="/src/partials/gallery.html" class="header-nav-link"
-            >Галерея</a
-          >
-        </li>
-        <li class="header-nav-item">
-          <a href="/src/partials/reviews.html" class="header-nav-link"
-            >Відгуки</a
-          >
-        </li>
-        <li class="header-nav-item">
-          <a href="/src/partials/contact.html" class="header-nav-link"
-            >Контакти</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <address class="address">
-      <ul class="header-address-list">
-        <li class="header-address-item">
-          <a href="tel:+3809990122" class="header-address-text"
-            >+38 (099) 909 11 22</a
-          >
-        </li>
-        <li class="header-address-item">
-          <a href="mailto:hello@ecotote.com" class="header-address-text"
-            >hello@ecotote.com</a
-          >
-        </li>
-      </ul>
-    </address>
-  </div>
-  <button type="button" class="menu-open-button">
-    <svg class="header-icon" width="32" height="32">
-      <use href="/ecotote-project-08/assets/icons-DyKpEQ55.svg#icon-menu"></use>
-    </svg>
-  </button>
-  <div class="menu">
-    <div class="menu-logo-button">
-      <img
-        src="/ecotote-project-08/assets/logo-D0IkVfL7.svg"
-        alt="logo"
-        width="81"
-        height="30"
-        class="menu-logo"
-      />
-      <button type="button" class="menu-close-button">
-        <svg class="header-icon" width="32" height="32">
-          <use href="/ecotote-project-08/assets/icons-DyKpEQ55.svg#icon-close"></use>
-        </svg>
-      </button>
-    </div>
-    <ul class="menu-list">
-      <li class="menu-item">
-        <a href="/src/partials/hero.html" class="menu-nav-link">Про нас</a>
-      </li>
-      <li class="menu-item">
-        <a href="/src/partials/feature.html" class="menu-nav-link">Переваги</a>
-      </li>
-      <li class="menu-item">
-        <a href="/src/partials/product.html" class="menu-nav-link"
-          >Асортимент</a
-        >
-      </li>
-      <li class="menu-item">
-        <a href="/src/partials/gallery.html" class="menu-nav-link">Галерея</a>
-      </li>
-      <li class="menu-item">
-        <a href="/src/partials/reviews.html" class="menu-nav-link">Відгуки</a>
-      </li>
-      <li class="menu-item">
-        <a href="/src/partials/contact.html" class="menu-nav-link">Контакти</a>
-      </li>
-    </ul>
-    <address class="menu-address">
-      <ul class="menu-address-list">
-        <li class="menu-address-item">
-          <a href="tel:+380999091122" class="menu-address-link"
-            >+38 (099) 909 11 22</a
-          >
-        </li>
-        <li class="menu-address-item">
-          <a href="mailto:hello@ecotote.com" class="menu-address-link"
-            >hello@ecotote.com</a
-          >
-        </li>
-      </ul>
-    </address>
-  </div>
-</header>
-
+    
 
     <main>
-      <section>EcoTote - стиль</section>
+      <section class="hero__not__nav container">
+  <div class="hero__inner">
+    <h1 class="hero__title">EcoTote — Стиль, що не шкодить планеті</h1>
+
+    <div class="hero__right">
+      <p class="hero__description">
+        Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+        відповідальність разом з EcoTote.
+      </p>
+      <!-- <div class="hero__controls"> -->
+      <button
+        type="button"
+        class="hero__button"
+        aria-label="Кнопка для покупки"
+      >
+        Купити зараз
+      </button>
+      <!-- </div> -->
+    </div>
+
+    <div class="hero__image-wrapper">
+      <picture class="hero__picture">
+        <source
+          srcset="/ecotote-project-08/assets/hero-Dvianlnv.jpg 1x, /ecotote-project-08/assets/hero@2x-BT4pAADf.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/ecotote-project-08/assets/hero_mob-Cad0rpOm.jpg 1x, /ecotote-project-08/assets/hero_mob_2x-8FRRLaH5.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/ecotote-project-08/assets/hero_mob-Cad0rpOm.jpg"
+          alt="Hero image"
+          class="hero__image"
+          width="288"
+          height="285"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
 
       <section>Турбота про планету</section>
 
