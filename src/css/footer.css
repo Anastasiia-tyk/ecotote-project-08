@@ -1,0 +1,123 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+a:hover {
+  text-decoration: underline;
+}
+html {
+  scroll-behavior: smooth;
+}
+.footer {
+  background-color: #75d281;
+  padding: 48px 20px;
+}
+.footer-logo-link {
+  margin: 0 auto;
+}
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(3, 10, 6, 0.15);
+}
+.footer-top-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.footer-socials-list {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.footer-socials-item {
+  width: 32px;
+  height: 32px;
+}
+.footer-socials-item-big {
+  display: none;
+}
+.footer-socials-item-small {
+  display: none;
+}
+.footer-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin: 24px 0;
+}
+.footer-copyright {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------------tablet--------------- */
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 64px 32px;
+  }
+  .footer-top {
+    gap: 32px;
+    padding-bottom: 24px;
+  }
+  .footer-top-list {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  .footer-socials-item {
+    display: none;
+  }
+  .footer-socials-item-big {
+    display: block;
+  }
+  .footer-address-list {
+    flex-direction: row;
+    gap: 32px;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+/* ---------------desktop--------------- */
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 80px 64px;
+  }
+  .container-footer {
+    max-width: 1440px;
+  }
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 52px;
+  }
+  .footer-top-list {
+    margin-bottom: 0;
+  }
+  .footer-top-box {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo-link {
+    margin: 0;
+    width: 165px;
+    height: 70px;
+  }
+  .footer-socials-item-big {
+    display: none;
+  }
+  .footer-socials-item-small {
+    display: block;
+  }
+}
