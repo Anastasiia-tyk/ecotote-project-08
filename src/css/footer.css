@@ -3,7 +3,7 @@ a {
     color: inherit;
     font-style: normal;
 
-    transition: text-direction 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -115,7 +115,6 @@ a:active {
     }
 
     .container-footer {
-        max-width: 1440px;
         margin: 0 auto;
     }
 
