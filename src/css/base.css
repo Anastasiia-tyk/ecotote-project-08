@@ -5,3 +5,11 @@ body {
   background-color: #EBF8ED;
   color: #030A06;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}

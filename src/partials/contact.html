@@ -1,1 +1,66 @@
-<section>Зв'яжіться з нами</section>
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-container">
+      <div class="contact-form">
+        <div class="contact-description">
+          <h2 class="contact-title-form">
+            Залишились питання? Зв'яжіться з нами!
+          </h2>
+          <p class="contact-text-form">Ми тут, щоб допомогти!</p>
+        </div>
+        <form class="contacts-form" action="#" method="post" novalidate>
+          <div class="form-field">
+            <label class="contact-label-input" for="name">Ім’я</label>
+            <input
+              class="contact-form-input"
+              type="text"
+              id="name"
+              name="name"
+              required
+              minlength="5"
+              maxlength="64"
+              placeholder="Іван"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Error text!</p>
+          </div>
+
+          <div class="form-field">
+            <label class="contact-label-input" for="email"
+              >Електронна пошта</label
+            >
+            <input
+              class="contact-form-input"
+              type="email"
+              id="email"
+              name="email"
+              required
+              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+              placeholder="hello@ecotote.com"
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Error text!</p>
+          </div>
+
+          <div class="form-field">
+            <label class="contact-label-textarea" for="message"
+              >Повідомлення</label
+            >
+            <textarea
+              class="contact-form-textarea"
+              id="message"
+              name="message"
+              maxlength="500"
+              rows="6"
+              placeholder="Введіть своє повідомлення..."
+            ></textarea>
+          </div>
+
+          <button class="btn-submit" type="submit">Надіслати</button>
+        </form>
+      </div>
+
+      <div class="contact-images"></div>
+    </div>
+  </div>
+</section>

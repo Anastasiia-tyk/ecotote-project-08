@@ -134,6 +134,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
+
   .hero__inner {
     gap: 32px;
     max-width: 1312px;
@@ -144,11 +145,13 @@
     flex: 1 1 calc((100% - 32px) / 2);
     min-width: 0;
     font-size: 56px;
+    padding-top: 32px;
   }
 
   .hero__right {
     flex: 1 1 calc((100% - 32px) / 2);
     gap: 32px;
+    margin-bottom: 61px
   }
 
   .hero__link {
