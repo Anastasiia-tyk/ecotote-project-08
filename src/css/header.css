@@ -29,7 +29,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 20px;
+  padding: 14px 0;
 }
 
 .header-logo-link-big {
@@ -139,7 +139,7 @@ ul {
 
 @media (min-width: 768px) {
   .header-box {
-    padding: 14px 32px;
+    padding: 14px 0;
   }
 }
 
