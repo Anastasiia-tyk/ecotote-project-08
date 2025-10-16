@@ -28,7 +28,6 @@
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 48px;
 }
 
 .carning_text_above {
@@ -81,7 +80,6 @@
     max-width: 768px;
     padding-left: 97px;
     padding-right: 97px;
-    padding-top: 64px;
   }
 
   .carning_title {
@@ -114,7 +112,6 @@
   .section__inner {
     padding-left: 97px;
     padding-right: 97px;
-    padding-top: 96px;
   }
 
   .carning_text_above {

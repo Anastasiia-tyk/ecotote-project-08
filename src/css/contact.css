@@ -204,7 +204,7 @@
     background-image: image-set(url(/img/contact/EcoTote-Form-mob.jpg) 1x,
     url(/img/contact/EcoTote-Form-mob@2x.jpg) 2x);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
 }
 
