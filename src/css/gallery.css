@@ -58,7 +58,7 @@
 
 /*tab-gallery*/
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media (min-width: 768px) {
   .gallery-item {
     display: grid;
     grid-template-columns: 338px 340px;
@@ -111,7 +111,7 @@
 
 /*decktop-gallery*/
 
-@media (min-width: 1158px) {
+@media (min-width: 1440px) {
   .gallery-item {
     display: grid;
     grid-template-columns: 421px 421px 421px;
